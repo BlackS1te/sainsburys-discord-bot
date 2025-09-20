@@ -1,0 +1,18 @@
+{
+  "name": "sainsburys-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for generating Sainsbury's style barcodes",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "canvas": "^2.11.2",
+    "jsbarcode": "^3.11.5"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
