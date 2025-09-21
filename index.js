@@ -1,3 +1,4 @@
+const keep_alive = require('./keep_alive.js');   
 
 const { Client, GatewayIntentBits, SlashCommandBuilder, EmbedBuilder, AttachmentBuilder } = require('discord.js');
 const { createCanvas } = require('canvas');
